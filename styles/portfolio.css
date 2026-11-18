@@ -11,6 +11,8 @@
     font-optical-sizing: auto;
 }
 
+
+
 .logo h2 {
     font-size: 45px;
     font-weight: 900;
@@ -31,6 +33,25 @@
     cursor: pointer;
 }
 
+.section-heading h2 {
+
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.section-heading p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.section-heading {
+    max-width: 827px;
+    text-align: center;
+}
+
 header {
     background-color: #fff3f4;
     background: url("../images/developer.png"), url("../images/header_bg.png "),
@@ -38,10 +59,13 @@ header {
 
     background-position: top left, bottom right;
     background-repeat: no-repeat;
-
+    padding-top: 50px;
     width: 1140px;
 
 }
+
+
+
 
 #banner-image img {
     max-width: 585px;
@@ -119,4 +143,36 @@ banner.banner-content {
 #banner.banner-images img {
     max-width: 585px;
     vertical-align: middle;
+}
+
+#about {
+    padding-top: 130px;
+
+}
+
+#about .about-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 131px 156px;
+}
+
+#about .about-container .about-info {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info.info-card p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+
+}
+
+.about-info.info-card h4 {
+    font-size: 20px;
 }
